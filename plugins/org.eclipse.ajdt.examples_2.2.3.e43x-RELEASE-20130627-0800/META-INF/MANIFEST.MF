@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.ajdt
+ .core
+Bundle-Vendor: %providerName
+Ant-Version: Apache Ant 1.8.2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ajdtExamples.jar
+Bundle-Version: 2.2.3.e43x-RELEASE-20130627-0800
+Bundle-Name: AspectJ Examples
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.ajdt.examples.AspectJExamplePlugin
+Created-By: 1.7.0_21-b11 (Oracle Corporation)
+Bundle-SymbolicName: org.eclipse.ajdt.examples; singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+
+Name: archive/spacewar.jar
+SHA-256-Digest: LoLphii9Hg9OmG4VUaOqCeUooCxtrO7m5QY7AfRbcfY=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: G2hFTVPngfh5NUf96Pyy87A7XIE083udjEBFy4pUc/M=
+
+Name: archive/bean.jar
+SHA-256-Digest: h8CZc3DisPmrs9+IVLdzicEXDW5YzIaMLBdENkElqwA=
+
+Name: archive/introduction.jar
+SHA-256-Digest: JMwcNa2NUvVrL54ysdNJV0vtJkhpORQHiJw48NKwJBM=
+
+Name: archive/tjp.jar
+SHA-256-Digest: zYWAL7c6LFYSpjiBfEXUuJq1dVjzLcUT2DVGswox1Hw=
+
+Name: plugin.properties
+SHA-256-Digest: SbFAegv/3qY6Rd3x+uLc9cf6V2QOPzRUYl034slvJPc=
+
+Name: schema/projectsetup.exsd
+SHA-256-Digest: nW+EYQPVuwIQAjbFHNwEQGU1aClTv2wVsQlqtxjz/mU=
+
+Name: plugin.xml
+SHA-256-Digest: Hwi7Xd5tcChXgfUHJCi7UDRgtYdkgILxr/fSApoWnGs=
+
+Name: about.html
+SHA-256-Digest: Zou0npn0qfCKRVjTOWfvcsgizJAClCvpMWgr81tFdag=
+
+Name: archive/tracing.jar
+SHA-256-Digest: 1+3y8qSWtjLBIy7xUrxoxX29wka5BWEfvGxDhy63f9U=
+
+Name: icons/newajprj_wiz.gif
+SHA-256-Digest: jsbep5zndMPmja67sidNHKiFS6wSkq0Xu3PPGf3C+Os=
+
+Name: ajdtExamples.jar
+SHA-256-Digest: 2TK1D6reSARV34BG/1sgRoox9VSwh6Vb5S0UhklWJcA=
+
+Name: archive/telecom.jar
+SHA-256-Digest: f4LTikn+QABcUC5gck8hnMmd+UC+HGusbTeQu/qBFSA=
+
+Name: archive/observer.jar
+SHA-256-Digest: ASKG+H6XVkYQJqzWDjfAK95AVnwgKCbfgvH6IkaNQYA=
+
+Name: archive/org.eclipse.ajdt.examples.progressmon.jar
+SHA-256-Digest: fQqevIygEzsw0WIRTI1oE93ZuIlBfQ57BiX7AF/u6n0=
+

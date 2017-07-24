@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.birt.osgi.runtime.sdk"
+      label="%featureName"
+      version="4.3.2.v20140211-1400-795388UF5G6LKl-4mBu2LJ7GXD29"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description url="http://www.eclipse.org/birt">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/birt/update-site/4.3"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/birt/update-site/4.3"/>
+   </url>
+
+   <includes
+         id="org.eclipse.birt.osgi.runtime"
+         version="4.3.2.v20140211-1400-BPC193GGgz0f8r06suCL6ks"/>
+
+   <includes
+         id="org.eclipse.birt.osgi.runtime.source"
+         version="4.3.2.v20140211-1400-BPC193GGgz0f8r06suCL6ks"/>
+
+</feature>

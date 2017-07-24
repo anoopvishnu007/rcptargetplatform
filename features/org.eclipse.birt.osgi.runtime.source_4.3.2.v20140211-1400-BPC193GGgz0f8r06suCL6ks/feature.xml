@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.birt.osgi.runtime.source" version="4.3.2.v20140211-1400-BPC193GGgz0f8r06suCL6ks" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description url="http://www.eclipse.org/birt">
+		%description
+	</description>
+	<copyright url="%copyrightURL">
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/birt/update-site/4.3" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/birt/update-site/4.3" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.birt.core.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.core.script.function.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.data.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.jdbc.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.hive.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.xml.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.fonts.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.html.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.pdf.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.model.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.resources.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.viewer.source" version="4.3.2.v201402141300"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.dataextraction.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.dataextraction.csv.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.adapter.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.wpml.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.postscript.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.ppt.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.apache.commons.codec.source" version="1.4.0.v201209201156"     unpack="false"/>
+	<plugin id="org.eclipse.birt.data.aggregation.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.data.oda.mongodb.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.data.oda.mongodb.ui.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.sampledb.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.mozilla.javascript.source" version="1.7.2.v201005080400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.extension.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.svg.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.engine.source" version="4.3.2.v201309171028"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.examples.core.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.engine.extension.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.reportitem.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.jdbc.dbprofile.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.item.crosstab.core.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.model.adapter.oda.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.excel.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.html.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.pdf.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.postscript.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.ppt.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.wpml.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.bidi.utils.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.script.javascript.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.odp.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.ods.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.odt.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.odp.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.ods.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.odt.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.odf.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.data.oda.excel.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.ooxml.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.docx.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.config.pptx.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.docx.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.report.engine.emitter.pptx.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.data.oda.pojo.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.axis.overlay.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="org.eclipse.birt.me.prettyprint.hector.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+	<plugin id="uk.co.spudsoft.birt.emitters.excel.source" version="4.3.2.v20140211-1400"     unpack="false"/>
+</feature>
